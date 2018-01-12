@@ -122,7 +122,7 @@ project.ext {
     gitrwscm = sprintf("git@github.com:fge/%s", name);
     gitroscm = sprintf("https://github.com/fge/%s.git", name);
     projectURL = sprintf("https://github.com/fge/%s", name);
-    sonatypeStaging = "https://oss.sonatype.org/service/local/staging/deploy/maven2/";
+    sonatypeStaging = "https://artifactory.ciena.com/blueplanet-m2-thirdparty-local";
     sonatypeSnapshots = "https://oss.sonatype.org/content/repositories/snapshots/";
 };
 
